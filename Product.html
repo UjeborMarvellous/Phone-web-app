@@ -1,225 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-    />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"
-      rel="stylesheet"
-    />
-    <title>Phone Web Page</title>
-  </head>
-  <body>
+    <title>Gallery</title>
+</head>
+<body>
     <nav id="nav" class="bg-black text-white border-gray-200 dark:bg-black">
-      <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-      >
-        <a href="./home.html" class="flex items-center">
-          <span
-            class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white"
-            >TechCell</span
-          >
-        </a>
-        <button
-          data-collapse-toggle="navbar-dropdown"
-          type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden text-white"
-          aria-controls="navbar-dropdown"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open main menu</span>
-          <i class="bx bx-menu-alt-right text-3xl"></i>
-        </button>
         <div
-          class="hidden w-full md:block md:w-auto lg:h-auto sm:h-auto h-screen"
-          id="navbar-dropdown"
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
         >
-          <ul
-            data-aos="flip-left"
-            class="flex flex-col font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0"
-          >
-            <a
-              href="./home.html"
-              class="text-xl block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Home</a
+          <a href="./home.html" class="flex items-center">
+            <span
+              class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white"
+              >TechCell</span
             >
-            <a
-              href="./AboutUs.html"
-              class="text-xl block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >About US</a
-            >
-            <a
-              href="./Product.html"
-              class="text-xl block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Products</a
-            >
-            <button
-            class="text-xl lg:block mr-auto py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+          </a>
+          <button
+            data-collapse-toggle="navbar-dropdown"
             type="button"
-            data-drawer-target="drawer-contact"
-            data-drawer-show="drawer-contact"
-            aria-controls="drawer-contact"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden text-white"
+            aria-controls="navbar-dropdown"
+            aria-expanded="false"
           >
-            Contact
+            <span class="sr-only">Open main menu</span>
+            <i class="bx bx-menu-alt-right text-3xl"></i>
           </button>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section class="sec lg:-mt-8 sm:-mt-8 mt-20">
-      <div class="relative">
-        <img
-          src="./Image/Headphone.png"
-          alt=""
-          class="lg:w-2/5 sm:w-2/5 w-3/5 mx-auto img"
-        />
-      </div>
-      <div class="absolute mt">
-        <p class="text-white ml-2 lg:text-3xl sm:text-2xl text-xl font-bold">
-          Latest Technology
-        </p>
-        <h1
-          class="text-white lg:text-9xl sm:text-7xl text-5xl font-bold font-sans leading-2 tracking-widest"
-        >
-          HEAD PHONES
-        </h1>
-        <button
-          class="bg-white md:block md:mx-auto lg:py-3 sm:py-2 py-2 px-8 text-xl font-bold lg:my-40 sm:my-10 mt-6"
-        >
-          Learn More
-        </button>
-      </div>
-    </section>
-    <section class="bg-white" data-aos="fade-up">
-      <div
-        class="Images md:grid md:grid-cols-4 grid grid-cols-3 lg::mx-32 sm:mx-10 mx-10"
-      >
-        <figure>
-          <img class="height" src="./Image/Lap01.jpg" alt="" />
-          <figcaption
-            class="text-center lg:text-2xl sm:text-xl text-sm font-bold"
+          <div
+            class="hidden w-full md:block md:w-auto lg:h-auto sm:h-auto h-screen"
+            id="navbar-dropdown"
           >
-            Laptops Latest
-          </figcaption>
-        </figure>
-        <figure>
-          <img class="height" src="./Image/Lap05.jpg" alt="" />
-          <figcaption
-            class="text-center lg:text-2xl sm:text-xl text-sm font-bold"
-          >
-            Ear Puds
-          </figcaption>
-        </figure>
-        <figure>
-          <img class="height" src="./Image/Lap06.jpg" alt="" />
-          <figcaption
-            class="text-center lg:text-2xl sm:text-xl text-sm font-bold"
-          >
-            Game Pad
-          </figcaption>
-        </figure>
-        <figure class="md:block hidden">
-          <img class="height" src="./Image/Lap04.jpg" alt="" />
-          <figcaption class="text-center lg:text-2xl sm:text-xl font-bold">
-            Game Headphone
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-    <section class="white" data-aos="fade-up">
-      <h1 class="md:text-5xl text-2xl font-bold text-white text-center">
-        Experience the Future today!
-      </h1>
-      <p class="md:text-2xl text-xl text-center text-white py-12">
-        Embark on a digital journey like never before. Whether you're a
-        tech-savvy individual, a small business owner, or an enterprise,
-        TechCell is here to guide you towards success in the digital realm
-      </p>
-    </section>
-    <section data-aos="fade" class="mx-10 my-5">
-      <div
-        class="grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3 bg-white"
-      >
-        <div class="mt8">
-          <div class="Image">
-            <p
-              class="text-white text-center md:text-4xl text-2xl font-bold font-sans"
+            <ul
+              data-aos="flip-left"
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0"
             >
-              Get what Suit
-            </p>
-            <p
-              class="text-white text-center md:text-4xl text-2xl font-bold font-sans"
+              <a
+                href="./home.html"
+                class="text-xl block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Home</a
+              >
+              <a
+                href="./AboutUs.html"
+                class="text-xl block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About US</a
+              >
+              <a
+                href="./Product.html"
+                class="text-xl block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Products</a
+              >
+              <button
+              class="text-xl lg:block mr-auto py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 focus:text-blue-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              type="button"
+              data-drawer-target="drawer-contact"
+              data-drawer-show="drawer-contact"
+              aria-controls="drawer-contact"
             >
-              your perfect taste
-            </p>
-            <button
-              class="btn block mx-auto py-2 font-semibold md:px-10 px-5 text-xl text-white my-4 border-2 border-white hover:bg-white hover:text-black"
-            >
-              Discover More
+              Contact
             </button>
+            </ul>
           </div>
         </div>
-        <div class="Images bg-white">
-          <div class="grid md:grid-cols-2 grid-cols-1 gap-2">
-            <div class="bg-gray-500 two">
-              <h1
-                class="text-white text-center py-32 md:text-2xl text-xl font-bold"
-              >
-                Creation Conquered
-              </h1>
+      </nav>
+      <section class="md:mx-20 my-32">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap01.png" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Phone.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap02.png" alt="">
+                </div>
             </div>
-            <img src="./Image/Lap03.jpg" class="w-full contain" alt="" />
-            <img src="./Image/Lap08.jpg" class="w-full contain" alt="" />
-            <div class="bg-gray-500 two">
-              <h1
-                class="text-white text-center py-32 md:text-2xl text-xl font-bold"
-              >
-                Top Notch Camera
-              </h1>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap03.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Man.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Phone02.jpg" alt="">
+                </div>
             </div>
-          </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap08.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap06.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap04.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Lap05.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="./Image/Headphone.png" alt="">
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <section class="newsletter py-4">
-      <h1
-        class="text-center md:text-4xl text-2xl font-semibold text-black font-sans"
-      >
-        Subscribe to our Newsletter
-      </h1>
-      <p class="text-center md:text-2xl text-xl text-black font-medium">
-        Get exclusive discounts, promotions, and exclusive offers
-      </p>
-      <div class="">
-        <div class="md:mx-48 mx-10 py-3">
-          <form class="flex">
-            <input
-              type="text"
-              class="bg-white w-full p-2"
-              placeholder="Enter your email"
-            />
-            <button
-            type="submit"
-              class="btn block bg-red-500 py-2 px-10 text-white font-medium"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <div
+      </section>
+      <div
       id="drawer-contact"
       class="fixed left-0 z-40 h-screen mt-16 p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-3/4 dark:bg-gray-800"
       tabindex="-1"
@@ -320,7 +218,7 @@
         <a href="#" class="hover:underline">+234 70816 41127</a>
       </p>
     </div>
-    <footer class="bg-black text-white">
+      <footer class="bg-black text-white">
         <div class="mx-0 w-full max-w-screen-2xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
               <div class="mb-6 md:mb-0">
@@ -395,13 +293,6 @@
         </div>
     </footer>
 
-
-
-    <script src="index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
 </html>

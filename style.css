@@ -61,6 +61,17 @@
     height: 100%;
 }
 
+.about {
+  background-image: url(./Image/Lap01.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.one {
+  background: #a18697;
+}
+
 @media (max-width: 768px) {
   .grids {
     margin: 0 5%;
